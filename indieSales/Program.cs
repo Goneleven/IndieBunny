@@ -1,4 +1,4 @@
-namespace indieSales
+namespace PROJETO
 {
     internal static class Program
     {

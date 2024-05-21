@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {}
+    "C:\\Users\\Gui_B\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\source\\repos\\PROJETO\\PROJETO\\PROJETO.csproj",
-      "projectName": "PROJETO",
-      "projectPath": "C:\\Users\\admin\\source\\repos\\PROJETO\\PROJETO\\PROJETO.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\source\\repos\\PROJETO\\PROJETO\\obj\\",
+      "projectUniqueName": "E:\\temporario\\indieSales\\indieSales\\indieSales.csproj",
+      "projectName": "indieSales",
+      "projectPath": "E:\\temporario\\indieSales\\indieSales\\indieSales.csproj",
+      "packagesPath": "C:\\Users\\Gui_B\\.nuget\\packages\\",
+      "outputPath": "E:\\temporario\\indieSales\\indieSales\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Gui_B\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -1,0 +1,17 @@
+E:\temporario\indieSales\indieSales\bin\Debug\net8.0-windows\indieSales.exe
+E:\temporario\indieSales\indieSales\bin\Debug\net8.0-windows\indieSales.deps.json
+E:\temporario\indieSales\indieSales\bin\Debug\net8.0-windows\indieSales.runtimeconfig.json
+E:\temporario\indieSales\indieSales\bin\Debug\net8.0-windows\indieSales.dll
+E:\temporario\indieSales\indieSales\bin\Debug\net8.0-windows\indieSales.pdb
+E:\temporario\indieSales\indieSales\obj\Debug\net8.0-windows\indieSales.Form1.resources
+E:\temporario\indieSales\indieSales\obj\Debug\net8.0-windows\indieSales.produtos.resources
+E:\temporario\indieSales\indieSales\obj\Debug\net8.0-windows\indieSales.csproj.GenerateResource.cache
+E:\temporario\indieSales\indieSales\obj\Debug\net8.0-windows\indieSales.GeneratedMSBuildEditorConfig.editorconfig
+E:\temporario\indieSales\indieSales\obj\Debug\net8.0-windows\indieSales.AssemblyInfoInputs.cache
+E:\temporario\indieSales\indieSales\obj\Debug\net8.0-windows\indieSales.AssemblyInfo.cs
+E:\temporario\indieSales\indieSales\obj\Debug\net8.0-windows\indieSales.csproj.CoreCompileInputs.cache
+E:\temporario\indieSales\indieSales\obj\Debug\net8.0-windows\indieSales.dll
+E:\temporario\indieSales\indieSales\obj\Debug\net8.0-windows\refint\indieSales.dll
+E:\temporario\indieSales\indieSales\obj\Debug\net8.0-windows\indieSales.pdb
+E:\temporario\indieSales\indieSales\obj\Debug\net8.0-windows\indieSales.genruntimeconfig.cache
+E:\temporario\indieSales\indieSales\obj\Debug\net8.0-windows\ref\indieSales.dll

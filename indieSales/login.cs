@@ -1,4 +1,5 @@
-﻿using System;
+﻿using indieSales;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,18 @@ namespace PROJETO
         public login()
         {
             InitializeComponent();
+        }
+
+        private void voltarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            inicio Tela = new inicio();
+            Tela.Show();
+            this.Hide();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

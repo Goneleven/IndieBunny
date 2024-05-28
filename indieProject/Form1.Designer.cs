@@ -221,6 +221,7 @@
             // 
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.Dock = DockStyle.Fill;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(0, 0);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(1064, 511);
@@ -279,6 +280,6 @@
         private MenuStrip menuStrip1;
         private ToolStripMenuItem cadastroLoginToolStripMenuItem;
         private ToolStripMenuItem quemSomosToolStripMenuItem;
-        private PictureBox pictureBox1;
+        public PictureBox pictureBox1;
     }
 }

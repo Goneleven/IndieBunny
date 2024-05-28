@@ -42,12 +42,14 @@
             label5 = new Label();
             pictureBox5 = new PictureBox();
             pictureBox1 = new PictureBox();
+            pictureBox6 = new PictureBox();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             SuspendLayout();
             // 
             // menuStrip1
@@ -169,7 +171,7 @@
             // 
             pictureBox5.BackColor = Color.Transparent;
             pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
-            pictureBox5.Location = new Point(143, 334);
+            pictureBox5.Location = new Point(0, 53);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(197, 201);
             pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
@@ -180,12 +182,23 @@
             // 
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(461, 352);
+            pictureBox1.Location = new Point(436, 317);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(169, 164);
+            pictureBox1.Size = new Size(209, 199);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 28;
             pictureBox1.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            pictureBox6.BackColor = Color.Transparent;
+            pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
+            pictureBox6.Location = new Point(805, 317);
+            pictureBox6.Name = "pictureBox6";
+            pictureBox6.Size = new Size(228, 223);
+            pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox6.TabIndex = 29;
+            pictureBox6.TabStop = false;
             // 
             // quemSomos
             // 
@@ -193,6 +206,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(93, 118, 169);
             ClientSize = new Size(1064, 511);
+            Controls.Add(pictureBox6);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
@@ -214,6 +228,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -233,5 +248,6 @@
         private Label label5;
         private PictureBox pictureBox5;
         private PictureBox pictureBox1;
+        private PictureBox pictureBox6;
     }
 }

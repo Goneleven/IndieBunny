@@ -62,6 +62,7 @@
             label1.Size = new Size(204, 49);
             label1.TabIndex = 0;
             label1.Text = "Cadastro";
+            label1.Click += label1_Click;
             // 
             // textBox1
             // 
@@ -133,6 +134,7 @@
             button1.TabIndex = 7;
             button1.Text = "Cadastrar-se";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click_1;
             // 
             // button2
             // 

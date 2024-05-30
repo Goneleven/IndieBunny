@@ -254,7 +254,7 @@
             Controls.Add(pictureBox1);
             MainMenuStrip = menuStrip1;
             Name = "Form1";
-            Text = "Indie Frog - Entrar";
+            Text = "Indie Bunny - Entrar";
             Load += Form1_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();

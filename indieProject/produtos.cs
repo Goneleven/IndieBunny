@@ -13,6 +13,9 @@ namespace indieProject
     public partial class produtos : Form
     {
         String[] nome = new string[7];
+        double valorDosJogosDouble = 0;
+        string valorDosJogosString;
+        string precoComMensagem;
 
         public produtos()
         {
@@ -43,6 +46,7 @@ namespace indieProject
         {
             nome[0] = ("Hollow Knight | R$ 39,99");
             listBox1.Items.Add(nome[0]);
+            valorDosJogosDouble = (valorDosJogosDouble + 39.99);
 
         }
 
@@ -101,7 +105,16 @@ namespace indieProject
 
         private void button9_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Remove(nome[1..6]);
+            listBox1.Items.Clear();
+            Array.Clear(nome);
+            valorDosJogosDouble = 0;
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            valorDosJogosString = valorDosJogosDouble.ToString();
+            precoComMensagem = "O Valor foi de: R$" + valorDosJogosString;
+            MessageBox.Show(precoComMensagem, "Compra Efetuada");
         }
     }
 }

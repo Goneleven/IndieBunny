@@ -86,9 +86,9 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.BackColor = Color.White;
+            label8.BackColor = Color.Transparent;
             label8.Font = new Font("Rockwell", 32.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label8.Location = new Point(384, 43);
+            label8.Location = new Point(384, 24);
             label8.Name = "label8";
             label8.Size = new Size(299, 98);
             label8.TabIndex = 19;
@@ -181,7 +181,7 @@
             listBox1.ItemHeight = 15;
             listBox1.Location = new Point(845, 451);
             listBox1.Name = "listBox1";
-            listBox1.Size = new Size(160, 319);
+            listBox1.Size = new Size(160, 199);
             listBox1.TabIndex = 36;
             listBox1.SelectedIndexChanged += listBox1_SelectedIndexChanged;
             // 
@@ -257,19 +257,20 @@
             // button8
             // 
             button8.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
-            button8.Location = new Point(747, 742);
+            button8.Location = new Point(913, 649);
             button8.Name = "button8";
             button8.Size = new Size(92, 28);
             button8.TabIndex = 44;
             button8.Text = "Confirmar";
             button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
             // 
             // button9
             // 
             button9.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
-            button9.Location = new Point(747, 708);
+            button9.Location = new Point(845, 649);
             button9.Name = "button9";
-            button9.Size = new Size(92, 28);
+            button9.Size = new Size(68, 28);
             button9.TabIndex = 45;
             button9.Text = "Limpar";
             button9.UseVisualStyleBackColor = true;
@@ -292,7 +293,9 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
-            ClientSize = new Size(1064, 786);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Center;
+            ClientSize = new Size(1064, 691);
             Controls.Add(button9);
             Controls.Add(button8);
             Controls.Add(pictureBox4);
@@ -313,7 +316,7 @@
             Controls.Add(button3);
             Controls.Add(button4);
             Name = "produtos";
-            Text = "Indie Frog - Home";
+            Text = "Indie Bunny - Home";
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();

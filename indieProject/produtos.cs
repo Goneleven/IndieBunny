@@ -55,46 +55,52 @@ namespace indieProject
         {
             nome[1] = ("Celeste | R$ 26,99");
             listBox1.Items.Add(nome[1]);
+            valorDosJogosDouble = (valorDosJogosDouble + 26.99);
 
         }
 
         //Jogo 3:
         private void button3_Click(object sender, EventArgs e)
         {
-            nome[2] = ("Omori");
+            nome[2] = ("Omori | R$ 32,99");
             listBox1.Items.Add(nome[2]);
+            valorDosJogosDouble = (valorDosJogosDouble + 32.99);
 
         }
 
         //Jogo 4:
         private void button4_Click(object sender, EventArgs e)
         {
-            nome[3] = ("TITULO PADRÃO 1");
+            nome[3] = ("Cuphead | R$ 24,99");
             listBox1.Items.Add(nome[3]);
+            valorDosJogosDouble = (valorDosJogosDouble + 24.99);
 
         }
 
         //Jogo 5:
         private void button5_Click(object sender, EventArgs e)
         {
-            nome[4] = ("TITULO PADRÃO 2");
+            nome[4] = ("Undertale | R$ 21,99");
             listBox1.Items.Add(nome[4]);
+            valorDosJogosDouble = (valorDosJogosDouble + 21.99);
 
         }
 
         //Jogo 6:
         private void button6_Click(object sender, EventArgs e)
         {
-            nome[5] = ("TITULO PADRÃO 3");
+            nome[5] = ("Cult of Lamb | R$ 19,99");
             listBox1.Items.Add(nome[5]);
+            valorDosJogosDouble = (valorDosJogosDouble + 19.99);
 
         }
 
         //Jogo 7:
         private void button7_Click(object sender, EventArgs e)
         {
-            nome[6] = ("TITULO PADRÃO 4");
+            nome[6] = ("Hades | R$ 69,99");
             listBox1.Items.Add(nome[6]);
+            valorDosJogosDouble = (valorDosJogosDouble + 69.99);
 
         }
 

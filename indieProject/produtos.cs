@@ -122,5 +122,10 @@ namespace indieProject
             precoComMensagem = "O Valor foi de: R$" + valorDosJogosString;
             MessageBox.Show(precoComMensagem, "Compra Efetuada");
         }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

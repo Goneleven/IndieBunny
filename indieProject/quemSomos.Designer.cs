@@ -86,7 +86,7 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Calibri", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
             label2.ImageAlign = ContentAlignment.TopCenter;
-            label2.Location = new Point(114, 274);
+            label2.Location = new Point(114, 289);
             label2.Name = "label2";
             label2.Size = new Size(888, 57);
             label2.TabIndex = 20;
@@ -167,6 +167,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1064, 511);
             Controls.Add(label5);
             Controls.Add(label4);
